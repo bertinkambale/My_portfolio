@@ -8,7 +8,7 @@ This project is a very basic website that shows my portfolio in using HTML, CSS 
 
 ## Live Demo
 
-[Live Demo Link](https:///)
+[Live Demo Link]
 
 
 ## Getting Started
