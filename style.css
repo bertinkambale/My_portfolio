@@ -1,4 +1,4 @@
-body {
+.all_containt {
   margin: 0%;
   padding: 0%;
   background-color: #e5e5e5;
@@ -307,4 +307,105 @@ body {
 
 hr {
   color: #dfe1e6;
+}
+
+/*******************                  contact form               *********************/
+.contact {
+  background-image: url(images/contact_me_background.png);
+  background-color: #6070ff;
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-position: 100% 100%;
+  border-top-left-radius: 70px;
+}
+
+.contact_width {
+  /* margin: auto; */
+  margin-left: 10%;
+  padding-top: 73px;
+  width: 80%;
+}
+
+.contact_width p {
+  font-family: 'Poppins', sans-serif;
+  font-weight: 400;
+  font-size: 20px;
+  font-style: normal;
+  text-align: center;
+  line-height: 28px;
+  color: #fff;
+}
+
+.contact_width p:first-child {
+  font-family: 'Poppins', sans-serif;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 40px;
+  line-height: 52px;
+  text-align: center;
+  color: #fff;
+}
+
+.contact_width label {
+  display: none;
+}
+
+.contact_width input {
+  margin: auto;
+  width: 90%;
+  text-align: start;
+  padding-left: 15px;
+  padding-top: 8px;
+  padding-bottom: 8px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 8px;
+  border: 1px solid #cfd8dc;
+  height: 30px;
+  color: #979faa;
+}
+
+.contact_width textarea {
+  margin: auto;
+  width: 90%;
+  text-align: start;
+  padding-left: 15px;
+  padding-top: 15px;
+  padding-bottom: 15px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 8px;
+  border: 1px solid #cfd8dc;
+  color: #8b96a8;
+}
+
+.contact_width button {
+  margin-left: 2%;
+  margin-bottom: 20%;
+  margin-top: 25px;
+  padding: 10px 10px;
+  letter-spacing: 0.03em;
+  color: #6070ff;
+  background-color: white;
+  font-family: 'Poppins', sans-serif;
+  font-style: normal;
+  font-weight: 700;
+  border: 1px solid #cfd8dc;
+  border-radius: 8px;
+}
+
+.contact_width button:hover {
+  margin-left: 2%;
+  margin-bottom: 20%;
+  margin-top: 25px;
+  padding: 10px 10px;
+  color: white;
+  background-color: #6070ff;
+  font-family: 'Poppins', sans-serif;
+  font-style: normal;
+  font-weight: 700;
+  border: 1px solid #cfd8dc;
+  border-radius: 8px;
 }

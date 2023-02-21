@@ -10,6 +10,7 @@
     <title>My_portfolio</title>
 </head>
 <body>
+<div class="all_containt">
     <header class="headerA">
         <div>
             <a class="logo">Bertin</a>
@@ -144,7 +145,27 @@
         </ul>
     </div>
  </section>
+ 
+</div>
+</div>
+<!--------------------------------contact form ----------------------------------->
+<section class="contact">
+    <div class="contact_width">
+            <p>Contact me</p>
+        <p>If you have an application you are interested in developing, a feature that you need built or a project that needs coding. I’d love to help with it </p>
+        <form action="https://formspree.io/f/xlekbwnv" method="POST"> 
+        <label for="name">Name</label>
+            <input name="text" id="name" required type="text" placeholder="your name"  maxlength="30">
+            <br>
+            <label for="email">Email</label>
+            <input name="email" id="email" required type="email" placeholder="your Email" maxlength="30">
+            <br>
+           <label for="message"></label>
+           <textarea name="message-box" id="message" required cols="30" rows="10" maxlength="500" placeholder="Write your message here" type="text"></textarea>
+           <button type="submit">Get in touch</button>
+        </form>
+    </div>
+</section>
 
-   </div>
 </body>
 </html>
