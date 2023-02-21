@@ -362,7 +362,7 @@ hr {
   border-radius: 8px;
   border: 1px solid #CFD8DC;
   height: 30px;
-  color: #caced4;
+  color: #979faa;
 }
 .contact_width textarea{
   margin: auto;
@@ -376,7 +376,7 @@ hr {
   align-items: center;
   border-radius: 8px;
   border: 1px solid #CFD8DC;
-color: #B3BAC5;
+color: #8b96a8;
 }
 .contact_width button{
   margin-left: 2%;
@@ -394,11 +394,10 @@ font-family: 'Poppins', sans-serif;
 
 }
 .contact_width button:hover{
-  margin-left: 8%;
+  margin-left: 2%;
   margin-bottom: 20%;
-  margin-top:5px;
+  margin-top:25px;
   padding :10px 10px;
-letter-spacing: 0.03em;
 color:white;
 background-color:#6070FF;;
 font-family: 'Poppins', sans-serif;
