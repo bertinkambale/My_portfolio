@@ -313,34 +313,41 @@ hr {
   background-image:url(images/contact_me_background.png);
   background-color:#6070FF;
   background-repeat: no-repeat;
-  background-size:cover;
+  background-size: contain;
+  background-position: 100% 100%;
   border-top-left-radius: 70px;
 }
+
 .contact_width{
   margin: auto;
+  padding-top: 73px;
   width: 80%;
 }
+
 .contact_width p:first-child{
   font-family: 'Poppins', sans-serif;
   font-style: normal;
   font-weight: 700;
-font-size: 30px;
-padding-top: 30px;
-text-align: center;
-color: #FFFFFF;
+  font-size: 40px;
+  line-height: 52px;
+  text-align: center;
+  color: #FFFFFF;
 }
+
 .contact_width p{
   font-family: 'Poppins', sans-serif;
   font-weight: 400;
-font-size: 20px;
+  font-size: 20px;
   font-style: normal;
   text-align:center;
   line-height: 28px;
-color: #FFFFFF;
+  color: #FFFFFF;
 }
+
 .contact_width label{
   display:none;
 }
+
 .contact_width input{
   margin: auto;
   width: 90%;
@@ -354,7 +361,7 @@ color: #FFFFFF;
   border-radius: 8px;
   border: 1px solid #CFD8DC;
   height: 30px;
-color: #caced4;
+  color: #caced4;
 }
 .contact_width textarea{
   margin: auto;
