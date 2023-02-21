@@ -319,7 +319,8 @@ hr {
 }
 
 .contact_width{
-  margin: auto;
+  /* margin: auto; */
+  margin-left: 10%;
   padding-top: 73px;
   width: 80%;
 }
@@ -380,7 +381,7 @@ color: #B3BAC5;
 .contact_width button{
   margin-left: 2%;
   margin-bottom: 20%;
-  margin-top:5px;
+  margin-top:25px;
   padding :10px 10px;
 letter-spacing: 0.03em;
 color: #6070FF;
