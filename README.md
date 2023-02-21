@@ -194,6 +194,17 @@ Example:
 - Twitter: [@bertinkambale](https://twitter.com/bertinkambale)
 - LinkedIn: [LinkedIn](https://linkedin.com/in/bertinkambale)
 
+👤 **Author2**
+
+- GitHub: [@anbehindY](https://github.com/anbehindY)
+- Twitter: [@anbehindY](https://twitter.com/anbehindY)
+- LinkedIn: [LinkedIn](https://linkedin.com/in/anbehindY)
+
+👤 **Author3**
+
+- GitHub: [@ntimanu](https://github.com/ntimanu)
+- Twitter: [@ntimanu](https://github.com/ntimanu)
+- LinkedIn: [LinkedIn](https://github.com/ntimanu)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
