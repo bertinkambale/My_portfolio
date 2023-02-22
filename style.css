@@ -66,6 +66,7 @@
     margin: auto;
     padding-top: 10%;
     padding-bottom: 20%;
+    margin-left: 4%;
   }
 
   .bloc1 h1 {
@@ -352,9 +353,7 @@
     background-color: white;
     border-top-right-radius: 70px;
   }
-  .bloc1{
-    margin-left: 4%;
-  }
+
   .bloc1 h3 {
     font-family: 'Poppins', sans-serif;
     font-style: normal;
@@ -567,10 +566,14 @@
   padding-bottom: 4%;
   background-color: white;
 }
-.bloc1{
+
+.bloc1 {
   padding-bottom: 16%;
   width: 70%;
+  padding-top: 15%;
+  padding-left: 5%;
 }
+
 .bloc1 ul {
   display: flex;
   align-items: center;
@@ -892,11 +895,6 @@
 .About_bloc {
   display: flex;
   gap: 5%;
-}
-
-.bloc1 {
-  padding-top: 15%;
-  padding-left: 5%;
 }
 
 .bloc1 h3 {
