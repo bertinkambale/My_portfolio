@@ -57,7 +57,7 @@ After you're finished please remove all the comments and instructions!
 
 # 📖 My_portfolio <a name="about-project"></a>
 
-**My_portfolio** is a.web site that show all abilities taht i have in creating website using css and html..
+**My_portfolio** is a.web site that show all abilities taht i have in creating website using css and html ..
 
 ## 🛠 Built With <a name="built-with"></a>
 -CSS
@@ -194,17 +194,6 @@ Example:
 - Twitter: [@bertinkambale](https://twitter.com/bertinkambale)
 - LinkedIn: [LinkedIn](https://linkedin.com/in/bertinkambale)
 
-👤 **Author2**
-
-- GitHub: [@anbehindY](https://github.com/anbehindY)
-- Twitter: [@anbehindY](https://twitter.com/anbehindY)
-- LinkedIn: [LinkedIn](https://linkedin.com/in/anbehindY)
-
-👤 **Author3**
-
-- GitHub: [@ntimanu](https://github.com/ntimanu)
-- Twitter: [@ntimanu](https://github.com/ntimanu)
-- LinkedIn: [LinkedIn](https://github.com/ntimanu)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
