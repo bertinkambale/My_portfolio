@@ -55,8 +55,8 @@
   .section1 {
     background-image: url(images/background_imag_block_1.png);
     background-repeat: no-repeat;
-  background-size: contain;
-  background-position: 100%;
+    background-size: contain;
+    background-position: 100%;
     border-bottom-left-radius: 70px;
     background-color: white;
   }
@@ -570,7 +570,7 @@
 .bloc1 {
   padding-bottom: 16%;
   width: 70%;
-  padding-top:15%;
+  padding-top: 15%;
   padding-left: 15%;
 }
 
