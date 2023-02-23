@@ -556,6 +556,10 @@
   color: #6070ff;
 }
 
+#logo:hover {
+  transform: rotate(10deg);
+}
+
 .headerA {
   display: flex;
   justify-content: space-between;
@@ -660,6 +664,10 @@
   text-align: justify;
 }
 
+.bloc1 h1:hover {
+  transform: translate(42px, 18px);
+}
+
 .bloc1 p {
   font-family: 'Poppins', sans-serif;
   font-style: normal;
@@ -696,6 +704,10 @@
   background-color: white;
   border-radius: 24px;
   margin-bottom: 70px;
+}
+
+.big_pictures:hover {
+  transform: scale(1.1);
 }
 
 .main1 img {
