@@ -54,9 +54,9 @@
 
   .section1 {
     background-image: url(images/background_imag_block_1.png);
-    background-position: center;
     background-repeat: no-repeat;
-    background-size: cover;
+  background-size: contain;
+  background-position: 100%;
     border-bottom-left-radius: 70px;
     background-color: white;
   }
@@ -444,7 +444,7 @@
     background-color: #6070ff;
     background-repeat: no-repeat;
     background-size: contain;
-    background-position: 100% 100%;
+    background-position: 100%;
     border-top-left-radius: 70px;
   }
 
@@ -452,7 +452,7 @@
     margin: auto;
     margin-left: 10%;
     padding-top: 73px;
-    width: 80%;
+    width: 100%;
   }
 
   .contact_width p {
@@ -484,14 +484,14 @@
     width: 90%;
     text-align: start;
     padding-left: 15px;
-    padding-top: 8px;
-    padding-bottom: 8px;
+    padding-top: 4px;
+    padding-bottom: 4px;
     display: flex;
     justify-content: center;
     align-items: center;
     border-radius: 8px;
     border: 1px solid #cfd8dc;
-    height: 30px;
+    height: 20px;
     color: #979faa;
   }
 
@@ -560,8 +560,8 @@
   display: flex;
   justify-content: space-between;
   padding-top: 6%;
-  padding-left: 5%;
-  padding-right: 5%;
+  padding-left: 10%;
+  padding-right: 10%;
   align-items: center;
   padding-bottom: 4%;
   background-color: white;
@@ -570,8 +570,8 @@
 .bloc1 {
   padding-bottom: 16%;
   width: 70%;
-  padding-top: 15%;
-  padding-left: 5%;
+  padding-top:15%;
+  padding-left: 15%;
 }
 
 .bloc1 ul {
@@ -642,7 +642,7 @@
 }
 
 .section1 {
-  background-image: url(images/background_imag_block_1.png);
+  background-image: url(images/background_desktop1.png);
   background-position: 100% 100%;
   background-repeat: no-repeat;
   background-size: 100% 100%;
@@ -982,11 +982,11 @@ hr {
 
 /*******************                  contact form               *********************/
 .contact {
-  background-image: url(images/contact_me_background.png);
+  background-image: url(images/background_desktop2.png);
   background-color: #6070ff;
   background-repeat: no-repeat;
   background-size: contain;
-  background-position: 100% 100%;
+  background-position: 100%;
   border-top-left-radius: 70px;
 }
 
@@ -1055,7 +1055,7 @@ hr {
 }
 
 .contact_width button {
-  margin-left: 2%;
+  margin-left: 38%;
   margin-bottom: 20%;
   margin-top: 25px;
   padding: 10px 10px;
@@ -1070,7 +1070,7 @@ hr {
 }
 
 .contact_width button:hover {
-  margin-left: 2%;
+  margin-left: 38%;
   margin-bottom: 20%;
   margin-top: 25px;
   padding: 10px 10px;
