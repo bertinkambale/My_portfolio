@@ -554,7 +554,6 @@
   font-size: 22px;
   line-height: 20px;
   color: #6070ff;
-  
 }
 
 #logo:hover {
@@ -663,8 +662,8 @@
   line-height: 52px;
   color: #172b4d;
   text-align: justify;
-  
 }
+
 .bloc1 h1:hover {
   transform: translate(42px, 18px);
 }
@@ -706,9 +705,11 @@
   border-radius: 24px;
   margin-bottom: 70px;
 }
-.big_pictures:hover{
+
+.big_pictures:hover {
   transform: scale(1.1);
 }
+
 .main1 img {
   width: 100%;
   margin: 0;
