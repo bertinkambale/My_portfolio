@@ -554,6 +554,11 @@
   font-size: 22px;
   line-height: 20px;
   color: #6070ff;
+  
+}
+
+#logo:hover {
+  transform: rotate(10deg);
 }
 
 .headerA {
