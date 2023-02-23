@@ -663,6 +663,10 @@
   line-height: 52px;
   color: #172b4d;
   text-align: justify;
+  
+}
+.bloc1 h1:hover {
+  transform: translate(42px, 18px);
 }
 
 .bloc1 p {
