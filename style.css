@@ -697,7 +697,9 @@
   border-radius: 24px;
   margin-bottom: 70px;
 }
-
+.big_pictures:hover{
+  transform: scale(1.1);
+}
 .main1 img {
   width: 100%;
   margin: 0;
