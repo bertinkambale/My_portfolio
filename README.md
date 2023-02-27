@@ -57,7 +57,7 @@ After you're finished please remove all the comments and instructions!
 
 # 📖 My_portfolio <a name="about-project"></a>
 
-**My_portfolio** is a.web site that show all abilities taht i have in creating website using css and html ..
+**My_portfolio** is a.web site that show all abilities taht i have in creating website using css and html, apart from that you can find it on the web it is already deployed..
 
 ## 🛠 Built With <a name="built-with"></a>
 -CSS
