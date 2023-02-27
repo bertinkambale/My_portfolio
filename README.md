@@ -103,7 +103,7 @@ Don't have it.
 
 > Add a link to your deployed project.
 
-- [Live Demo Link](file:///C:/Users/Bertin%20Kambale/Documents/Microverse/Module1/My_portfolio/index.html)
+- [Live Demo Link](https://bertinkambale.github.io/My_portfolio/)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
