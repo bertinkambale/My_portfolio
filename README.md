@@ -57,7 +57,7 @@ After you're finished please remove all the comments and instructions!
 
 # 📖 My_portfolio <a name="about-project"></a>
 
-**My_portfolio** is a.web site that show all abilities taht i have in creating website using css and html ..
+**My_portfolio** is a.web site that show all abilities taht i have in creating website using css and html, apart from that you can find it on the web it is already deployed..
 
 ## 🛠 Built With <a name="built-with"></a>
 -CSS
@@ -103,7 +103,7 @@ Don't have it.
 
 > Add a link to your deployed project.
 
-- [Live Demo Link](file:///C:/Users/Bertin%20Kambale/Documents/Microverse/Module1/My_portfolio/index.html)
+- [Live Demo Link](https://bertinkambale.github.io/My_portfolio/)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
