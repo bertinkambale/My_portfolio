@@ -31,35 +31,9 @@
   background-color: white;
 }
 
-.headerA nav ul{
-  display: flex;
-}
-
-  
-.close-btn-container{
-  display: none;
-}
-
-.display-navb{
-  display: flex;
-  justify-content: space-between;
-}
-.display-navb li{
-  padding-right: 10%;
-  list-style: none;
-}
-.display-navb a{
-  text-decoration: none;
-  font-family: 'Poppins', sans-serif;
-  color: #7a869a;
-  font-weight: 600;
-  font-size: 13px;
-}
-.bloc1 {
-  padding-bottom: 16%;
-  width: 70%;
-  padding-top: 15%;
-  padding-left: 15%;
+.fram ul {
+  padding: 0;
+  margin: 0;
 }
 
 .bloc1 ul {
@@ -68,20 +42,42 @@
   padding-left: 0;
 }
 
+.headerA nav ul {
+  display: flex;
+}
+
+.close-btn-container {
+  display: none;
+}
+
+.display-navb {
+  display: flex;
+  justify-content: space-between;
+}
+
+.display-navb li {
+  padding-right: 10%;
+  list-style: none;
+}
+
+.display-navb a {
+  text-decoration: none;
+  font-family: 'Poppins', sans-serif;
+  color: #7a869a;
+  font-weight: 600;
+  font-size: 13px;
+}
+
+.bloc1 {
+  padding-bottom: 16%;
+  width: 70%;
+  padding-top: 15%;
+  padding-left: 15%;
+}
+
 .bloc1 li {
   list-style: none;
   padding-right: 2%;
-}
-
-.fram ul {
-  padding: 0;
-  margin: 0;
-}
-
-.headerA nav ul {
-  display: flex;
-  flex-direction: column;
-  margin: 0;
 }
 
 .Tonyclass li {
@@ -567,6 +563,7 @@ hr {
   border: 1px solid #cfd8dc;
   border-radius: 8px;
 }
+
 /******************************************************  mobile version  *******************************************/
 @media (max-width: 768px) {
   .all_containt {
@@ -619,6 +616,7 @@ hr {
   .headerA nav:nth-last-child(1) {
     display: none;
   }
+
   .headerA nav ul li a {
     font-family: 'Poppins', sans-serif;
     font-style: normal;
@@ -629,14 +627,14 @@ hr {
     text-decoration: none;
     padding: 3%;
   }
-  
-  .menu{
-    background-color: #6070FF;
-    position:fixed;
-    top:0;  
-    left:0;
+
+  .menu {
+    background-color: #6070ff;
+    position: fixed;
+    top: 0;
+    left: 0;
     right: 0;
-    height:100vh;
+    height: 100vh;
     opacity: 0.8;
     padding: 20px;
   }
@@ -644,11 +642,11 @@ hr {
   .menu ul {
     padding: 0;
   }
-  
+
   .close-btn {
     width: fit-content;
     border: none;
-    background-color: #6070FF;
+    background-color: #6070ff;
   }
 
   .close-btn-container {
@@ -662,10 +660,10 @@ hr {
     height: 20px;
     width: 20px;
   }
-  .display-navb{
-    display:block;
+
+  .display-navb {
+    display: block;
   }
-  
 
   .section1 {
     background-image: url(images/background_imag_block_1.png);
