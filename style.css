@@ -51,7 +51,15 @@
   .headerA nav:nth-last-child(1) {
     display: none;
   }
-
+  .menu{
+    background-color: #6070FF;
+    position:fixed;
+    top:0;  
+    left:0;
+    right: 0;
+    height:100vh;
+    opacity: 0.8;
+  }
   .section1 {
     background-image: url(images/background_imag_block_1.png);
     background-repeat: no-repeat;
@@ -596,6 +604,7 @@
 
 .headerA nav ul {
   display: flex;
+  flex-direction: column;
   margin: 0;
 }
 
