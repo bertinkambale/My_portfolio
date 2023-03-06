@@ -613,13 +613,27 @@ hr {
     margin: 8px 0;
   }
 
+  .menu ul {
+    padding: 0;
+  }
+
+  .bloc1 ul {
+    display: flex;
+    align-items: center;
+    padding-left: 0;
+  }
+
+  .fram ul {
+    padding: 0;
+  }
+
   .headerA nav:nth-last-child(1) {
     display: none;
   }
+
   .headerA nav ul {
     display: block;
   }
-  
 
   .headerA nav ul li a {
     font-family: 'Poppins', sans-serif;
@@ -641,10 +655,6 @@ hr {
     height: 100vh;
     opacity: 0.8;
     padding: 20px;
-  }
-
-  .menu ul {
-    padding: 0;
   }
 
   .close-btn {
@@ -709,12 +719,6 @@ hr {
     font-weight: 500;
     font-size: 16px;
     color: #7f8cff;
-  }
-
-  .bloc1 ul {
-    display: flex;
-    align-items: center;
-    padding-left: 0;
   }
 
   .bloc1 li {
@@ -994,10 +998,6 @@ hr {
     margin: auto;
     margin-top: -19%;
     padding-bottom: 29%;
-  }
-
-  .fram ul {
-    padding: 0;
   }
 
   .chevron {
