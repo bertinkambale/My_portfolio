@@ -9,3 +9,9 @@ hamberger.addEventListener('click', () => {
 closeButton.addEventListener('click', () => {
      navlink.style.display = 'none';
 });
+
+navlink.addEventListener('click', (event) => {
+     if (event.target.tagName === 'A') {
+          navlink.style.display = 'none'; 
+     }
+});
