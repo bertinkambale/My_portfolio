@@ -616,6 +616,10 @@ hr {
   .headerA nav:nth-last-child(1) {
     display: none;
   }
+  .headerA nav ul {
+    display: block;
+  }
+  
 
   .headerA nav ul li a {
     font-family: 'Poppins', sans-serif;
