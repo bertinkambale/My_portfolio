@@ -18,10 +18,8 @@ navlink.addEventListener('click', (event) => {
 
 const projectCard=[
   {
-    name: "Tonic",
-    canopy:"Canopy",
-    backendDev:"Back End Dev",
-    year:2015,
+    name: "Tonic" 
+    speciality:"canopy,Back End Dev,2015",
     description: "A daily selection of privately personalized reads; no accounts or sign-ups required.",
     featuredImages:"images/Picture_1.png",
     technologies:"html,css,javascript",
