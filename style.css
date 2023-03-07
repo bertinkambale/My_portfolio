@@ -1151,4 +1151,8 @@ hr {
     border: 1px solid #cfd8dc;
     border-radius: 8px;
   }
+  .hidden{
+    display: none;
+  }
+ 
 }
