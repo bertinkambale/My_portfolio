@@ -15,3 +15,41 @@ navlink.addEventListener('click', (event) => {
     navlink.style.display = 'none';
   }
 });
+
+const projectCard=[
+  {
+    name: "Tonic",
+    canopy:"Canopy",
+    backendDev:"Back End Dev",
+    year:2015,
+    description: "A daily selection of privately personalized reads; no accounts or sign-ups required.",
+    featuredImages:"images/Picture_1.png",
+    technologies:"html,css,javascript",
+    Sourcelink:"https://github.com/bertinkambale/My_portfolio",
+    liveVersion:"https://bertinkambale.github.io/My_portfolio/"
+  },
+  {
+    name:"Tonic",
+    description:"A daily selection of privately personalized reads; no accounts or sign-ups required.",
+    featuredImages:"images/Picture_1.png",
+    technologies:"html,css,javascript",
+    Sourcelink:"https://github.com/bertinkambale/My_portfolio",
+    liveVersion:"https://bertinkambale.github.io/My_portfolio/"
+  },
+  {
+    name: "Tonic",
+    description: "A daily selection of privately personalized reads; no accounts or sign-ups required.",
+    featuredImages:"images/Picture_1.png",
+    technologies:"html,css,javascript",
+    sourceLink:"https://github.com/bertinkambale/My_portfolio",
+    liveVersion:"https://bertinkambale.github.io/My_portfolio/"
+  },
+  {
+    name:"Tonic",
+    description:"A daily selection of privately personalized reads; no accounts or sign-ups required.",
+    featuredImages:"images/Picture_1.png",
+    technologies:"html,css,javascript",
+    Sourcelink:"https://github.com/bertinkambale/My_portfolio",
+    liveVersion:"https://bertinkambale.github.io/My_portfolio/"
+  }
+];
