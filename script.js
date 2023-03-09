@@ -158,92 +158,92 @@ for (let i = 0; i < projects.length; i += 1) {
   container.appendChild(card);
 }
 
-// const ProjectPopup = (
-//   id,
-//   title,
-//   company,
-//   post,
-//   year,
-//   image,
-//   technologies,
-//   details,
-//   liveVersion,
-//   githubLink,
-// ) => {
-//   let technologyList = '';
-//   for (let i = 0; i < technologies.length; i += 1) {
-//     technologyList += `<li class="card-tag">${technologies[i]}</li>`;
-//   }
+const ProjectPopup = (
+  id,
+  title,
+  company,
+  post,
+  year,
+  image,
+  technologies,
+  details,
+  liveVersion,
+  githubLink,
+) => {
+  let technologyList = '';
+  for (let i = 0; i < technologies.length; i += 1) {
+    technologyList += `<li class="card-tag">${technologies[i]}</li>`;
+  }
 
-//   return `<div class="pop-head">
-//   <div class="pop-head-container">
-//     <h3 class="card-title">${title}</h3>
-//     <div class="card-info">
-//       <span class="info-active">${company}</span>
-//       <img src="./folderImg/Counter.svg" alt="dot" />
-//       <span>${post}</span>
-//       <img src="./folderImg/Counter.svg" alt="dot" />
-//       <span>${year}</span>
-//     </div>
-//   </div>
-//   <button id="pop-btn">&times;</button>
-// </div>
-// <div class="pop-img">
-//   <img class="card-img" src="${image}" />
-// </div>
-// <div class="pop-content">
-//   <p class="card-descrip card-item-mg">
-//     ${details}
-//   </p>
-//   <div class="pop-footer">
-//     <ul class="card-tags card-item-mg">
-//       ${technologyList}
-//     </ul>
-//     <span class="span"></span>
-//     <div class="pop-actions">
-//       <button class="pop-button" onclick="window.open('${githubLink}', '_blank')">
-//         <span>See live</span>
-//         <img src="./folderImg/live-icon.svg" />
-//       </button>
-//       <button class="pop-button" onclick="window.open('${liveVersion}', '_blank')">
-//         <span>See live</span>
-//         <img src="./folderImg/github2.svg" />
-//       </button>
-//     </div>
-//   </div>
-// </div>`;
-// };
+  return `<div class="pop-head">
+  <div class="pop-head-container">
+    <h3 class="card-title">${title}</h3>
+    <div class="card-info">
+      <span class="info-active">${company}</span>
+      <img src="./folderImg/Counter.svg" alt="dot" />
+      <span>${post}</span>
+      <img src="./folderImg/Counter.svg" alt="dot" />
+      <span>${year}</span>
+    </div>
+  </div>
+  <button id="pop-btn">&times;</button>
+</div>
+<div class="pop-img">
+  <img class="card-img" src="${image}" />
+</div>
+<div class="pop-content">
+  <p class="card-descrip card-item-mg">
+    ${details}
+  </p>
+  <div class="pop-footer">
+    <ul class="card-tags card-item-mg">
+      ${technologyList}
+    </ul>
+    <span class="span"></span>
+    <div class="pop-actions">
+      <button class="pop-button" onclick="window.open('${githubLink}', '_blank')">
+        <span>See live</span>
+        <img src="./folderImg/live-icon.svg" />
+      </button>
+      <button class="pop-button" onclick="window.open('${liveVersion}', '_blank')">
+        <span>See live</span>
+        <img src="./folderImg/github2.svg" />
+      </button>
+    </div>
+  </div>
+</div>`;
+};
 
-// projects.forEach((aProject) => {
-//   const btnShowProject = document.getElementById(`card-${aProject.id}`);
-//   btnShowProject.addEventListener('click', () => {
-//     // alert(`clicked on ${aPoject.id}`);
-//     const thePopupCardShows = document.getElementById('popupCard');
-//     const htmlToInsert = ProjectPopup(
-//       aProject.id,
-//       aProject.title,
-//       aProject.company,
-//       aProject.post,
-//       aProject.year,
-//       aProject.image,
-//       aProject.technologies,
-//       aProject.details,
-//       aProject.githubLink,
-//       aProject.liveVersion,
-//     );
-//     thePopupCardShows.innerHTML = htmlToInsert;
+projects.forEach((aProject) => {
+  const btnShowProject = document.getElementById(`card-${aProject.id}`);
+  btnShowProject.addEventListener('click', () => {
+    // alert(`clicked on ${aPoject.id}`);
+    const thePopupCardShows = document.getElementById('popupCard');
+    const htmlToInsert = ProjectPopup(
+      aProject.id,
+      aProject.title,
+      aProject.company,
+      aProject.post,
+      aProject.year,
+      aProject.image,
+      aProject.technologies,
+      aProject.details,
+      aProject.githubLink,
+      aProject.liveVersion,
+    );
+    thePopupCardShows.innerHTML = htmlToInsert;
 
-//     const overly = document.getElementById('overly');
-//     overly.classList.toggle('hidden');
-//     thePopupCardShows.classList.toggle('hidden-popup');
+    const overly = document.getElementById('overly');
+    overly.classList.toggle('hidden');
+    thePopupCardShows.classList.toggle('hidden-popup');
 
-//     const closePopBtn = document.getElementById('pop-btn');
+    const closePopBtn = document.getElementById('pop-btn');
 
-//     closePopBtn.addEventListener('click', () => {
-//       const thePopupCardShows = document.getElementById('popupCard');
-//       thePopupCardShows.innerHTML = '';
-//       overly.classList.toggle('hidden');
-//       thePopupCardShows.classList.toggle('hidden-popup');
-//     });
-//   });
-// });
+    closePopBtn.addEventListener('click', () => {
+      const thePopupCardShows = document.getElementById('popupCard');
+      thePopupCardShows.innerHTML = '';
+      overly.classList.toggle('hidden');
+      thePopupCardShows.classList.toggle('hidden-popup');
+    });
+  });
+});
