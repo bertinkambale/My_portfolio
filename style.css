@@ -209,6 +209,13 @@ header {
   /* font-weight: bolder; */
 }
 
+.card-tags {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px;
+  list-style-type: none;
+}
+
 .card-tag {
   color: #5263ff;
   font-size: 12px;
@@ -815,7 +822,6 @@ form button {
   padding-right: 20px;
 }
 
-
 .pop-footer .pop-button:hover {
   color: white;
   background-color: #5263ff;
@@ -844,4 +850,11 @@ form button {
 
 .hidden-popup {
   transform: scale(0);
+}
+
+.error {
+  color: rgb(201, 1, 1);
+  padding: 8px;
+  border-radius: 4px;
+  background-color: rgba(255, 195, 195, 0.89);
 }
