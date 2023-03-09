@@ -741,6 +741,7 @@ form button {
   display: flex;
   flex-direction: column;
   padding: 24px;
+  gap:5px;
   top: 0;
   left: 0;
   margin: 2% 9%;
