@@ -16,9 +16,6 @@ mobileMenuLinks.forEach((link) => {
     nav.classList.add('hidden');
   });
 });
-
-//  Cards data
-
 const projects = [
   {
     id: 1,
@@ -26,14 +23,14 @@ const projects = [
     company: 'CANOPY',
     post: 'Back End Dev',
     year: '2014',
-    image: './assets/Snapshoot-1.png',
+    image: './folderImg/Snapshoot-1.png',
     technologies: ['html', 'css', 'javascript'],
     description:
       'A daily selection of privately personalized reads; no accounts or sign-ups required.',
     details:
       'Lorem ipsum dolor sit amet consectetur adipisicing elit. Reiciendis vero culpa, excepturi harum corrupti inventore, quis cupiditate atque dolorem veritatis autem necessitatibus officiis vitae doloremque earum laudantium soluta praesentium odit at id aut aspernatur quas alias voluptates. Rerum veniam cum maiores? Aspernatur dolorem architecto et praesentium vitae earum voluptates exercitationem.',
-    liveVersion: 'https://yusufobr.github.io/my-protfolio-mv/',
-    githubLink: 'https://github.com/yusufobr',
+    liveVersion: 'https://github.com/bertinkambale/My_portfolio',
+    githubLink: 'https://github.com/bertinkambale',
   },
   {
     id: 2,
@@ -41,14 +38,14 @@ const projects = [
     company: 'FACEBOOK',
     post: 'Full Stack Dev',
     year: '2015',
-    image: './assets/Snapshoot-2.png',
+    image: './folderImg/Snapshoot-2.png',
     technologies: ['html', 'css', 'Ruby on rails', 'javascript'],
     description:
       'Experimental content creation feature that allows users to add to an existing story over the course of a day without spamming their friends.',
     details:
       'Lorem ipsum dolor sit amet consectetur adipisicing elit. Reiciendis vero culpa, excepturi harum corrupti inventore, quis cupiditate atque dolorem veritatis autem necessitatibus officiis vitae doloremque earum laudantium soluta praesentium odit at id aut aspernatur quas alias voluptates. Rerum veniam cum maiores? Aspernatur dolorem architecto et praesentium vitae earum voluptates exercitationem.',
-    liveVersion: 'https://yusufobr.github.io/my-protfolio-mv/',
-    githubLink: 'https://github.com/yusufobr',
+    liveVersion: 'https://github.com/bertinkambale/My_portfolio',
+    githubLink: 'https://github.com/bertinkambale',
   },
   {
     id: 3,
@@ -56,14 +53,14 @@ const projects = [
     company: 'FACEBOOK',
     post: 'Back End Dev',
     year: '2017',
-    image: './assets/Snapshoot-3.png',
+    image: './folderImg/Snapshoot-3.png',
     technologies: ['html', 'css', 'Ruby on rails', 'javascript'],
     description:
       "Exploring the future of media in Facebook's first Virtual Reality app; a place to discover and enjoy 360 photos and videos on Gear VR.",
     details:
       'Lorem ipsum dolor sit amet consectetur adipisicing elit. Reiciendis vero culpa, excepturi harum corrupti inventore, quis cupiditate atque dolorem veritatis autem necessitatibus officiis vitae doloremque earum laudantium soluta praesentium odit at id aut aspernatur quas alias voluptates. Rerum veniam cum maiores? Aspernatur dolorem architecto et praesentium vitae earum voluptates exercitationem.',
-    liveVersion: 'https://yusufobr.github.io/my-protfolio-mv/',
-    githubLink: 'https://github.com/yusufobr',
+    liveVersion: 'https://github.com/bertinkambale/My_portfolio',
+    githubLink: 'https://github.com/bertinkambale',
   },
   {
     id: 4,
@@ -71,21 +68,17 @@ const projects = [
     company: 'UBER',
     post: 'Full End Dev',
     year: '2019',
-    image: './assets/Snapshoot-4.png',
+    image: './folderImg/Snapshoot-4.png',
     technologies: ['html', 'css', 'php', 'javascript'],
     description:
       'A smart assistant to make driving more safe, efficient, and fun by unlocking your most expensive computer: your car.',
     details:
       'Lorem ipsum dolor sit amet consectetur adipisicing elit. Reiciendis vero culpa, excepturi harum corrupti inventore, quis cupiditate atque dolorem veritatis autem necessitatibus officiis vitae doloremque earum laudantium soluta praesentium odit at id aut aspernatur quas alias voluptates. Rerum veniam cum maiores? Aspernatur dolorem architecto et praesentium vitae earum voluptates exercitationem.',
-    liveVersion: 'https://yusufobr.github.io/my-protfolio-mv/',
-    githubLink: 'https://github.com/yusufobr',
+    liveVersion: 'https://github.com/bertinkambale/My_portfolio',
+    githubLink: 'https://github.com/bertinkambale',
   },
 ];
-
-// Get the container element
 const container = document.getElementById('works-container');
-
-// Loop the cards
 for (let i = 0; i < projects.length; i += 1) {
   const card = document.createElement('div');
   card.classList.add('card');
@@ -119,7 +112,7 @@ for (let i = 0; i < projects.length; i += 1) {
   info.appendChild(company);
 
   const dot1 = document.createElement('img');
-  dot1.src = './assets/Counter.svg';
+  dot1.src = './folderImg/Counter.svg';
   dot1.alt = 'dot';
   info.appendChild(dot1);
 
@@ -128,7 +121,7 @@ for (let i = 0; i < projects.length; i += 1) {
   info.appendChild(role);
 
   const dot2 = document.createElement('img');
-  dot2.src = './assets/Counter.svg';
+  dot2.src = './folderImg/Counter.svg';
   dot2.alt = 'dot';
   info.appendChild(dot2);
 
@@ -165,93 +158,92 @@ for (let i = 0; i < projects.length; i += 1) {
   container.appendChild(card);
 }
 
-const ProjectPopup = (
-  id,
-  title,
-  company,
-  post,
-  year,
-  image,
-  technologies,
-  details,
-  liveVersion,
-  githubLink,
-) => {
-  let technologyList = '';
-  for (let i = 0; i < technologies.length; i += 1) {
-    technologyList += `<li class="card-tag">${technologies[i]}</li>`;
-  }
+// const ProjectPopup = (
+//   id,
+//   title,
+//   company,
+//   post,
+//   year,
+//   image,
+//   technologies,
+//   details,
+//   liveVersion,
+//   githubLink,
+// ) => {
+//   let technologyList = '';
+//   for (let i = 0; i < technologies.length; i += 1) {
+//     technologyList += `<li class="card-tag">${technologies[i]}</li>`;
+//   }
 
-  return `<div class="pop-head">
-  <div class="pop-head-container">
-    <h3 class="card-title">${title}</h3>
-    <div class="card-info">
-      <span class="info-active">${company}</span>
-      <img src="./assets/Counter.svg" alt="dot" />
-      <span>${post}</span>
-      <img src="./assets/Counter.svg" alt="dot" />
-      <span>${year}</span>
-    </div>
-  </div>
-  <button id="pop-btn">&times;</button>
-</div>
-<div class="pop-img">
-  <img class="card-img" src="${image}" />
-</div>
-<div class="pop-content">
-  <p class="card-descrip card-item-mg">
-    ${details}
-  </p>
-  <div class="pop-footer">
-    <ul class="card-tags card-item-mg">
-      ${technologyList}
-    </ul>
-    <span class="span"></span>
-    <div class="pop-actions">
-      <button class="pop-button" onclick="window.open('${githubLink}', '_blank')">
-        <span>See live</span>
-        <img src="./assets/live-icon.svg" />
-      </button>
-      <button class="pop-button" onclick="window.open('${liveVersion}', '_blank')">
-        <span>See live</span>
-        <img src="./assets/github2.svg" />
-      </button>
-    </div>
-  </div>
-</div>`;
-};
+//   return `<div class="pop-head">
+//   <div class="pop-head-container">
+//     <h3 class="card-title">${title}</h3>
+//     <div class="card-info">
+//       <span class="info-active">${company}</span>
+//       <img src="./folderImg/Counter.svg" alt="dot" />
+//       <span>${post}</span>
+//       <img src="./folderImg/Counter.svg" alt="dot" />
+//       <span>${year}</span>
+//     </div>
+//   </div>
+//   <button id="pop-btn">&times;</button>
+// </div>
+// <div class="pop-img">
+//   <img class="card-img" src="${image}" />
+// </div>
+// <div class="pop-content">
+//   <p class="card-descrip card-item-mg">
+//     ${details}
+//   </p>
+//   <div class="pop-footer">
+//     <ul class="card-tags card-item-mg">
+//       ${technologyList}
+//     </ul>
+//     <span class="span"></span>
+//     <div class="pop-actions">
+//       <button class="pop-button" onclick="window.open('${githubLink}', '_blank')">
+//         <span>See live</span>
+//         <img src="./folderImg/live-icon.svg" />
+//       </button>
+//       <button class="pop-button" onclick="window.open('${liveVersion}', '_blank')">
+//         <span>See live</span>
+//         <img src="./folderImg/github2.svg" />
+//       </button>
+//     </div>
+//   </div>
+// </div>`;
+// };
 
-projects.forEach((aProject) => {
-  const btnShowProject = document.getElementById(`card-${aProject.id}`);
-  btnShowProject.addEventListener('click', () => {
-    // alert(`clicked on ${aPoject.id}`);
-    const thePopupCardShows = document.getElementById('popupCard');
-    const htmlToInsert = ProjectPopup(
-      aProject.id,
-      aProject.title,
-      aProject.company,
-      aProject.post,
-      aProject.year,
-      aProject.image,
-      aProject.technologies,
-      aProject.details,
-      aProject.githubLink,
-      aProject.liveVersion,
-    );
-    thePopupCardShows.innerHTML = htmlToInsert;
+// projects.forEach((aProject) => {
+//   const btnShowProject = document.getElementById(`card-${aProject.id}`);
+//   btnShowProject.addEventListener('click', () => {
+//     // alert(`clicked on ${aPoject.id}`);
+//     const thePopupCardShows = document.getElementById('popupCard');
+//     const htmlToInsert = ProjectPopup(
+//       aProject.id,
+//       aProject.title,
+//       aProject.company,
+//       aProject.post,
+//       aProject.year,
+//       aProject.image,
+//       aProject.technologies,
+//       aProject.details,
+//       aProject.githubLink,
+//       aProject.liveVersion,
+//     );
+//     thePopupCardShows.innerHTML = htmlToInsert;
 
-    const overly = document.getElementById('overly');
-    overly.classList.toggle('hidden');
-    thePopupCardShows.classList.toggle('hidden-popup');
+//     const overly = document.getElementById('overly');
+//     overly.classList.toggle('hidden');
+//     thePopupCardShows.classList.toggle('hidden-popup');
 
-    const closePopBtn = document.getElementById('pop-btn');
+//     const closePopBtn = document.getElementById('pop-btn');
 
-    closePopBtn.addEventListener('click', () => {
-      const thePopupCardShows = document.getElementById('popupCard');
-      thePopupCardShows.innerHTML = '';
-      overly.classList.toggle('hidden');
-      thePopupCardShows.classList.toggle('hidden-popup');
-    });
-  });
-});
-
+//     closePopBtn.addEventListener('click', () => {
+//       const thePopupCardShows = document.getElementById('popupCard');
+//       thePopupCardShows.innerHTML = '';
+//       overly.classList.toggle('hidden');
+//       thePopupCardShows.classList.toggle('hidden-popup');
+//     });
+//   });
+// });
