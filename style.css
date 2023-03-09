@@ -815,7 +815,7 @@ form button {
   padding-right: 20px;
 }
 
-/*
+
 .pop-footer .pop-button:hover {
   color: white;
   background-color: #5263ff;
@@ -844,4 +844,4 @@ form button {
 
 .hidden-popup {
   transform: scale(0);
-} */
+}
