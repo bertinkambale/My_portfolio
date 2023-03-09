@@ -209,13 +209,6 @@ header {
   /* font-weight: bolder; */
 }
 
-.card-tags {
-  display: flex;
-  flex-wrap: wrap;
-  gap: 8px;
-  list-style-type: none;
-}
-
 .card-tag {
   color: #5263ff;
   font-size: 12px;
