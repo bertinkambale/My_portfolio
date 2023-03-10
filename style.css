@@ -603,11 +603,7 @@ form button {
     flex-direction: column;
     justify-content: center;
   }
-
-  /* .reverse {
-    flex-direction: column-reverse;
-  } */
-
+  
   .hero-container {
     width: 80%;
   }
