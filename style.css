@@ -640,10 +640,6 @@ form button {
     padding: 0;
   }
 
-  /* .reverse {
-    flex-direction: column-reverse;
-  } */
-
   .works-container {
     grid-template-columns: 1fr 1fr;
     gap: 30px;
