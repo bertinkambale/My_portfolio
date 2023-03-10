@@ -527,10 +527,6 @@ form button {
     padding: 16px;
   }
 
-  /* .reverse {
-    flex-direction: column-reverse;
-  } */
-
   .q-a {
     width: 96%;
   }
@@ -603,7 +599,7 @@ form button {
     flex-direction: column;
     justify-content: center;
   }
-  
+
   .hero-container {
     width: 80%;
   }
